@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+
+header ul li {
+  width: 25%;
+  color: goldenrod;
+  list-style: none;
+  float: left;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#logo {
+  width: 20%;
+  height: 55px;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#menu {
+  width: 80%;
+  height: 60px;
+  float: left;
+}
+
+header ul li a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+/*Home section starts*/
+#home {
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-image: url("../images/back.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+#home h1 {
+  margin-top: 0;
+}
+
+.content_1home {
+  margin-top: 200px;
+  width: 60%;
+  margin: 0 20%;
+  padding-top: 170px;
+}
+
+.subcont1 {
+  background-color: rgb(147, 13, 13);
+  border-radius: 20px;
+}
+
+
+/*Home section ends*/
+
+
+/*About section starts*/
+#id {
+  width: 100%;
+  height: 400px;
+}
+
+.div_abt {
+  width: 16%;
+  background-color: crimson;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 0 2%;
+  height: 330px;
+}
+
+.div_abt img {
+  padding-top: 15px;
+}
+
+.mLR {
+  margin: 0 4%;
+}
+
+.mR {
+  margin-right: 4%;
+}
+
+.div_abt button {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+/*About section ends*/
